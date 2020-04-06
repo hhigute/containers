@@ -27,6 +27,4 @@ docker container logs -f psql2
 # * (this only works with patch versions, most SQL DB's require manual commands to upgrade DB's to major/minor versions, i.e. it's a DB limitation not a container on)
 
 
-9.6.1
-VOLUME [/var/lib/postgresql/data]
 

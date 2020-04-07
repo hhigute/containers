@@ -25,6 +25,3 @@ docker container run -d --name psql2 -v psql:/var/lib/postgresql/data postgres:9
 # * Check logs to validade
 docker container logs -f psql2
 # * (this only works with patch versions, most SQL DB's require manual commands to upgrade DB's to major/minor versions, i.e. it's a DB limitation not a container on)
-
-
-
